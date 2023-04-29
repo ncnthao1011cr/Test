@@ -17,6 +17,7 @@ btadd.addEventListener("click", function(){
     tnode.textContent = hoten.value;
     tnode.radio = gioitinh.value;
     tnode.checkbox = sothich.value;
+    //Đúng hay sai?
     tnode.checkbox = option1.value;
     tnode.checkbox = option2.value;
     tnode.checkbox = option3.value;
@@ -40,7 +41,7 @@ btadd.addEventListener("click", function(){
     count++;
 });
 //Chưa xuất được thông tin ra màn hình 
-
+//xuất thông tin ra màn hình
 btcancel.addEventListener("click", function(){
     hoten.value = "";
     gioitinh.value = "";
