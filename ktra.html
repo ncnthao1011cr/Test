@@ -6,33 +6,36 @@
     <div class="row">
         <div class="col-6 bg-light p-4">
             <form class="row">
-                <label for="hoten" class="col-4">Họ tên:</label>
-                <input class="col-8" name="hoten" type= "text">
+                <label for="name" class="col-4">Họ tên:</label>
+
+                <input class="col-6"  name="name" type= "text">
+
+                    
                 <label for="gioitinh" class="col-4">Giới tính:</label>
                     <div class = "radio-container col-8">
                         <div class = "radio-row">
-                            <input type = "radio" id = "male" name = "gioitinh" value = "male">
+                            <input type = "radio" id ="male" name = "gioitinh" value = "Nam">
                             <label for = "male">Nam</label><br>
                         </div>
                         <div class="radio-row">
-                            <input type="radio" id="female" name="gioitinh" value="female">
+                            <input type="radio" id="female" name="gioitinh" value="Nữ">
                             <label for="female">Nữ</label><br>
                         </div>
                     </div>
                 <label for = "sothich" class = "col-4">Sở thích:</label>
                     <div class = "sothich-container col-8">
                         <div class = "sothich-row">
-                            <input type="checkbox" id="checkbox1" name="option1" value="1">
+                            <input type="checkbox" id="checkbox1" name="sothich" value="Âm nhạc">
                             <label for="checkbox1">Âm nhạc</label>
                             
                         </div>
                         <div class = "sothich-row">
-                            <input type="checkbox" id="checkbox2" name="option2" value="2"> 
+                            <input type="checkbox" id="checkbox2" name="sothich" value="Thể thao"> 
                             <label for="checkbox2">Thể thao</label>
                              
                         </div> 
                         <div class = "sothich-row">
-                            <input type="checkbox" id="checkbox3" name="option3" value="3"> 
+                            <input type="checkbox" id="checkbox3" name="sothich" value="Nghệ thuật"> 
                             <label for="checkbox3">Nghệ thuật</label>
                         </div>
                     </div>
@@ -40,7 +43,8 @@
                 <input class="col-6" type="reset" value="Huỷ" id="cancel">
             </form>
         </div>
-        <div class="col-6 bg-success p-4" id="result">
+        <div class="col-6 bg-success p-4" id="result" >
+            
         </div>
     </div>
 </body>
